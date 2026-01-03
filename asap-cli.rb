@@ -1,10 +1,10 @@
 class AsapCli < Formula
     desc "CLI tool to deploy static sites to asap-static.site"
     homepage "https://github.com/aydinschwa/asap-cli"
-    url "https://github.com/aydinschwa/asap-cli/releases/download/v1.1.1/asap"
-    sha256 "a5b3d630e0e4ef6f309ccd5fa920153403cf6dd8b8d3a3de5f7af86e7d0228af"
+    url "https://github.com/aydinschwa/asap-cli/releases/download/v1.1.2/asap"
+    sha256 "7cd91b2518e46d9a5595679c5e369bfde17cf27a110eb932d6ea5844d7a562b9"
     license "MIT"
-    version "1.1.1"
+    version "1.1.2"
   
     def install
       bin.install "asap"
